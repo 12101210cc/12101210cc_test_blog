@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | Edmund Huang</title>
+<title>Processing time | Edmund Huang</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,7 +18,14 @@
 
 
 
-    <meta name="description" content="SW/RD Life with Yun.">
+    <meta name="description" content="Processing time
+tags: linux2020
+Estimate processing time of your program.
+$ time ./yourProgram
+
+and you will get:
+real  ..." />
+    <meta name="keywords" content="C,c++" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,40 +95,64 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">Processing time</h2>
+            <div class="post-date">2020-12-31</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="processing-time">Processing time</h1>
+<h6 id="tags-linux2020">tags: <code>linux2020</code></h6>
+<h2 id="estimate-processing-time-of-your-program">Estimate processing time of your program.</h2>
+<pre><code>$ time ./yourProgram
+</code></pre>
+<p>and you will get:</p>
+<pre><code>real    0m0.008s
+user    0m0.007s
+sys     0m0.000s
+</code></pre>
+<ol>
+<li><strong>real</strong>: is the <strong>real time</strong> passed in the reality when your program running.</li>
+<li><strong>user</strong>: meas the running time of your program in <strong>user mode.</strong></li>
+<li><strong>sys</strong>: meas the running time of your program in <strong>system mode.</strong></li>
+</ol>
+<p>Why two modes in Linux? Linux using <strong>system mode</strong> to isolated and protect the kernel. <a href="http://blog.he96.com/2011/01/linux-timewhat-do-real-user-and-sys.html">Reference</a></p>
+<h2 id="estimate-processing-time-of-your-program-mutiple-times">Estimate processing time of your program mutiple times.</h2>
+<pre><code>$ seq HOW_MANY_TIMES | time xargs -Iz ./yourProgram
+</code></pre>
+<p>e.g. Catch the time of running your program 10 times</p>
+<pre><code>$ seq 10 | time xargs -Iz ./yourProgram
+</code></pre>
+<p>and you wil get the output</p>
+<pre><code>0.61user 0.14system 0:00.38elapsed 197%CPU (0avgtext+0avgdata 33020maxresident)k
+0inputs+0outputs (0major+32504minor)pagefaults 0swaps
+</code></pre>
+<p>user time = 0.61 s<br>
+system time = 0.14 s<br>
+elapsed time = 0.38 s</p>
+<ol>
+<li><strong>elapsed time</strong> is the <strong>real time</strong> which passed in the reality when your program running.</li>
+<li>when <strong>user time</strong> &gt; <strong>elapsed time</strong> means your computer has <strong>mutiple processing</strong> and it is open.</li>
+</ol>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
-              
+              <div class="tag-container">
                 
-                  <article class="post">
-                    <a href="https://12101210cc.github.io/post/discuss_dialog/">
-                      <h2 class="post-title">
-                        評論系統
-                      </h2>
-                    </a>
-                  </article>
+                  <a href="https://12101210cc.github.io/tag/QhO23QdKi/" class="tag">
+                    C
+                  </a>
                 
-              
+                  <a href="https://12101210cc.github.io/tag/k-WSgMd-ss/" class="tag">
+                    c++
+                  </a>
                 
-                  <article class="post">
-                    <a href="https://12101210cc.github.io/post/process_time/">
-                      <h2 class="post-title">
-                        Processing time
-                      </h2>
-                    </a>
-                  </article>
-                
-              
+              </div>
             
+            
+
+            
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
