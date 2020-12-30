@@ -2,14 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://12101210cc.github.io</id>
     <title>Edmund Huang</title>
-    <updated>2020-12-30T16:22:01.883Z</updated>
+    <updated>2020-12-30T16:45:34.310Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://12101210cc.github.io"/>
     <link rel="self" href="https://12101210cc.github.io/atom.xml"/>
-    <subtitle>Hello~ World</subtitle>
     <logo>https://12101210cc.github.io/images/avatar.png</logo>
     <icon>https://12101210cc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Edmund Huang</rights>
+    <entry>
+        <title type="html"><![CDATA[測試一下]]></title>
+        <id>https://12101210cc.github.io/post/ce-shi-yi-xia/</id>
+        <link href="https://12101210cc.github.io/post/ce-shi-yi-xia/">
+        </link>
+        <updated>2020-12-30T16:33:28.000Z</updated>
+        <content type="html"><![CDATA[<p>好像蠻方便的，gridea好用@@</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://12101210cc.github.io/post/hello-gridea/</id>
@@ -21,6 +29,8 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<!-- more -->
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
 <a href="https://gridea.dev/">Gridea 主页</a><br>
