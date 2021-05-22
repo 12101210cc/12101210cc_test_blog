@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://12101210cc.github.io</id>
     <title>Edmund Huang</title>
-    <updated>2021-01-01T13:36:06.466Z</updated>
+    <updated>2021-05-22T11:18:54.562Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://12101210cc.github.io"/>
     <link rel="self" href="https://12101210cc.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://12101210cc.github.io/images/avatar.png</logo>
     <icon>https://12101210cc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Edmund Huang</rights>
+    <entry>
+        <title type="html"><![CDATA[試阿阿 ~~]]></title>
+        <id>https://12101210cc.github.io/post/shi-a-a-~~/</id>
+        <link href="https://12101210cc.github.io/post/shi-a-a-~~/">
+        </link>
+        <updated>2021-05-22T11:17:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>測試阿阿 ~~~~~~~~~~~~~</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>測試阿阿 ~~~~~~~~~~~~~</p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[test]]></title>
         <id>https://12101210cc.github.io/post/test/</id>
